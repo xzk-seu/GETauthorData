@@ -1,0 +1,501 @@
+{
+    "publications": [
+        {
+            "y": 2013,
+            "pt": "0",
+            "d": "2013-01-01",
+            "aa": [
+                {
+                    "auId": 2039546190,
+                    "dAuN": "Alexander Guggenmos",
+                    "afId": 149899117,
+                    "dAfN": "Max Planck Society"
+                },
+                {
+                    "auId": 2086161341,
+                    "dAuN": "Michael Hofstetter",
+                    "afId": 149899117,
+                    "dAfN": "Max Planck Society"
+                },
+                {
+                    "auId": 2072607683,
+                    "dAuN": "R. Rauhut",
+                    "afId": 8204097,
+                    "dAfN": "Ludwig Maximilian University of Munich"
+                },
+                {
+                    "auId": 2895621703,
+                    "dAuN": "C. Spaeth",
+                    "afId": 8204097,
+                    "dAfN": "Ludwig Maximilian University of Munich"
+                },
+                {
+                    "auId": 2069554710,
+                    "dAuN": "S. Hertrich",
+                    "afId": 8204097,
+                    "dAfN": "Ludwig Maximilian University of Munich"
+                }
+            ],
+            "tac": 13,
+            "f": [
+                {
+                    "fId": 143357915,
+                    "fn": "attosecond"
+                },
+                {
+                    "fId": 2778785133,
+                    "fn": "photon energy"
+                },
+                {
+                    "fId": 146024833,
+                    "fn": "extreme ultraviolet"
+                },
+                {
+                    "fId": 102755159,
+                    "fn": "pulse shaping"
+                },
+                {
+                    "fId": 127934551,
+                    "fn": "harmonic"
+                },
+                {
+                    "fId": 7766398,
+                    "fn": "pulse"
+                },
+                {
+                    "fId": 207114421,
+                    "fn": "diffraction"
+                },
+                {
+                    "fId": 102519508,
+                    "fn": "fourier transform"
+                },
+                {
+                    "fId": 120665830,
+                    "fn": "optics"
+                },
+                {
+                    "fId": 121332964,
+                    "fn": "physics"
+                }
+            ],
+            "e": {
+                "dn": "Broadband multilayer mirror and diffractive optics for attosecond pulse shaping in the 280-500 eV photon energy range",
+                "d": "Chirped broadband multilayer mirrors are key components to shape attosecond pulses in the XUV range. Compressing high harmonic pulses to their Fourier limit is the major goal for attosecond physics utilizing short pulse pump-probe experiments. Here, we report about the first implementation of multilayers and diffractive optics fulfilling these requirements in the \"water-window\" spectral range.",
+                "s": [
+                    {
+                        "ty": 3,
+                        "u": "http://pubman.mpdl.mpg.de/pubman/item/escidoc:1976821:2/component/escidoc:1976912/4743.pdf"
+                    }
+                ],
+                "vfn": "18th International Conference on Ultrafast Phenomena",
+                "v": 41,
+                "fp": 1011
+            },
+            "ty": "0",
+            "id": 2119637416,
+            "pk": 2119637416,
+            "weight": 20520,
+            "pc": 0,
+            "cc": 0,
+            "ecc": 0,
+            "logprob": -20.52
+        },
+        {
+            "y": 2008,
+            "pt": "0",
+            "d": "2008-01-01",
+            "aa": [
+                {
+                    "auId": 2053281505,
+                    "dAuN": "M. D\u00f6blinger",
+                    "dAfN": "LMU M\u00fcnchen"
+                },
+                {
+                    "auId": 344880253,
+                    "dAuN": "B. V. Lotsch",
+                    "afId": 185261750,
+                    "dAfN": "University of Toronto"
+                },
+                {
+                    "auId": 2042937707,
+                    "dAuN": "L. Seyfarth",
+                    "afId": 54009628,
+                    "dAfN": "University of Bayreuth"
+                },
+                {
+                    "auId": 2576502661,
+                    "dAuN": "J. Senker",
+                    "afId": 54009628,
+                    "dAfN": "University of Bayreuth"
+                },
+                {
+                    "auId": 101999262,
+                    "dAuN": "W. Schnick",
+                    "dAfN": "LMU M\u00fcnchen"
+                }
+            ],
+            "tac": 5,
+            "f": [
+                {
+                    "fId": 2776203237,
+                    "fn": "heptazine"
+                },
+                {
+                    "fId": 2778835725,
+                    "fn": "graphitic carbon nitride"
+                },
+                {
+                    "fId": 2777492770,
+                    "fn": "carbon nitride"
+                },
+                {
+                    "fId": 200096950,
+                    "fn": "reflection high energy electron diffraction"
+                },
+                {
+                    "fId": 140676511,
+                    "fn": "nanocrystalline material"
+                },
+                {
+                    "fId": 77557913,
+                    "fn": "electron diffraction"
+                },
+                {
+                    "fId": 512968161,
+                    "fn": "hydrogen"
+                },
+                {
+                    "fId": 32909587,
+                    "fn": "molecule"
+                },
+                {
+                    "fId": 179104552,
+                    "fn": "inorganic chemistry"
+                },
+                {
+                    "fId": 192562407,
+                    "fn": "materials science"
+                }
+            ],
+            "e": {
+                "dn": "Structural Investigation of a Layered Carbon Nitride Polymer by Electron Diffraction",
+                "d": "Graphitic carbon nitride has attracted continuous interest because of its potential use as a precursor for ultrahard materials [1]. Down to present days, the synthesis of truly binary carbon nitride C3N4 has always been spoiled by the presence of additional salts or hydrogen. Inclusion of the latter \u2018defects\u2019 likely results in incomplete condensation of the network forming molecules triazine (C3N3) and heptazine (C6N7), which is typically accompanied by amorphisation and denitrification. For the characterisation of the nanocrystalline and disordered character of the resulting light-element materials, electron microscopy is particularly well suited, be it with respect to synthesis optimisation or structure analysis.",
+                "s": [
+                    {
+                        "ty": 3,
+                        "u": "https://link.springer.com/content/pdf/10.1007%2F978-3-540-85156-1_93.pdf"
+                    }
+                ],
+                "vfn": "",
+                "fp": 185,
+                "lp": 186
+            },
+            "ty": "0",
+            "id": 45810901,
+            "pk": 45810901,
+            "weight": 21782,
+            "pc": 0,
+            "cc": 0,
+            "ecc": 0,
+            "logprob": -21.782
+        },
+        {
+            "y": 2013,
+            "pt": "0",
+            "d": "2013-07-12",
+            "aa": [
+                {
+                    "auId": 1750991064,
+                    "dAuN": "Martin Zeuner",
+                    "afId": 8204097,
+                    "dAfN": "Ludwig Maximilian University of Munich"
+                },
+                {
+                    "auId": 2766990891,
+                    "dAuN": "Sandro Pagano and",
+                    "afId": 8204097,
+                    "dAfN": "Ludwig Maximilian University of Munich"
+                },
+                {
+                    "auId": 101999262,
+                    "dAuN": "Wolfgang Schnick",
+                    "afId": 8204097,
+                    "dAfN": "Ludwig Maximilian University of Munich"
+                }
+            ],
+            "tac": 3,
+            "f": [
+                {
+                    "fId": 159985019,
+                    "fn": "composite material"
+                },
+                {
+                    "fId": 192562407,
+                    "fn": "materials science"
+                }
+            ],
+            "e": {
+                "dn": "10. Nitridosilicates and Oxonitridosilicates: From Ceramic Materials to Structural and Functional Diversity",
+                "s": [
+                    {
+                        "ty": 999,
+                        "u": "http://onlinelibrary.wiley.com/doi/10.1002/9783527631971.ch10/references"
+                    }
+                ],
+                "vfn": "Ceramics Science and Technology Volume 4: Applications"
+            },
+            "ty": "0",
+            "id": 2766303317,
+            "pk": 2766303317,
+            "weight": 21816,
+            "pc": 0,
+            "cc": 0,
+            "ecc": 0,
+            "logprob": -21.816
+        },
+        {
+            "y": 2014,
+            "pt": "0",
+            "d": "2014-05-23",
+            "aa": [
+                {
+                    "auId": 1750991064,
+                    "dAuN": "Martin Zeuner"
+                },
+                {
+                    "auId": 2581884042,
+                    "dAuN": "Sandro Pagano"
+                },
+                {
+                    "auId": 101999262,
+                    "dAuN": "Wolfgang Schnick"
+                }
+            ],
+            "tac": 3,
+            "f": [
+                {
+                    "fId": 159985019,
+                    "fn": "composite material"
+                },
+                {
+                    "fId": 192562407,
+                    "fn": "materials science"
+                }
+            ],
+            "e": {
+                "dn": "10. Nitridosilicates and Oxonitridosilicates: From Ceramic Materials to Structural and Functional Diversity",
+                "s": [
+                    {
+                        "ty": 999,
+                        "u": "http://onlinelibrary.wiley.com/doi/10.1002/9783527631940.ch60/references"
+                    }
+                ],
+                "vfn": "Ceramics Science and Technology, Set"
+            },
+            "ty": "0",
+            "id": 2552642883,
+            "pk": 2552642883,
+            "weight": 22771,
+            "pc": 0,
+            "cc": 0,
+            "ecc": 0,
+            "logprob": -22.771
+        },
+        {
+            "y": 2012,
+            "pt": "0",
+            "d": "2012-01-01",
+            "aa": [
+                {
+                    "auId": 2806098842,
+                    "dAuN": "Hubert Huppertz"
+                },
+                {
+                    "auId": 2778374076,
+                    "dAuN": "Oliver Oeckler"
+                },
+                {
+                    "auId": 2776563283,
+                    "dAuN": "Alexandra Lieb"
+                },
+                {
+                    "auId": 216574418,
+                    "dAuN": "Robert Glaum"
+                },
+                {
+                    "auId": 2069773216,
+                    "dAuN": "Dirk Johrendt"
+                }
+            ],
+            "tac": 8,
+            "f": [
+                {
+                    "fId": 2776268066,
+                    "fn": "sphalerite"
+                },
+                {
+                    "fId": 2781379571,
+                    "fn": "diimide"
+                },
+                {
+                    "fId": 536819264,
+                    "fn": "samarium"
+                },
+                {
+                    "fId": 544956773,
+                    "fn": "silicon"
+                },
+                {
+                    "fId": 179104552,
+                    "fn": "inorganic chemistry"
+                },
+                {
+                    "fId": 8010536,
+                    "fn": "crystallography"
+                },
+                {
+                    "fId": 185592680,
+                    "fn": "chemistry"
+                }
+            ],
+            "e": {
+                "dn": "Ca 3 Sm 3 A 9 N 17 )a nd Ca 3 Yb 3 A 9 N 17 ) Nitridosilicates with Interpenetrating Nets that Consist of Star-Shaped (N (4) A 3 ) 4 ) Units and (Si 5 N 16 ) Supertetrahedra",
+                "d": "Abstract: New nitridosilicates Ca 3 Sm 3 -ACHTUNGRE[Si 9 N 17 ] and Ca 3 Yb 3 ACHTUNGRE[Si 9 N 17 ] were syn-thesized from the reactions of the puremetals (calcium and samarium/ytterbi-um) with silicon diimide \u201cSi(NH) 2 \u201dina radio-frequency (rf) furnace at tem-peratures of up to 16508C. These iso-typic compounds crystallize in thecubic space groupP4\u00af3m (no. 215) withlattice parameters a=739.50(3) pm;V=0.4044(1) nm 3 ; Z=1; wR 2 =0.029(240 diffraction data, 26 parameters)for Ca 3 Sm 3 ACHTUNGRE[Si 9 N 17 ] and a=730.20(2) pm; V=0.3893(1) nm 3 ; wR 2 =0.039 (387 diffraction data, 27 parame-ters) for Ca 3 Yb 3 ACHTUNGRE[Si 9 N 17 ]. The new struc-ture type of Ca 3 RE 3 ACHTUNGRE[Si 9 N 17 ](RE=Sm,Yb) consists of two independent infi-ACHTUNGREnite networks, each of which have anexpanded sphalerite (ZnS) topology inwhich the positions of the Zn and Satoms are replaced by voluminous[N [4] ACHTUNGRE(SiN 3 ) 4 ] units and [Si 5 N 16 ] superte-trahedra, respectively, thereby display-ing twofold interpenetration. As well,a structural description of Ca",
+                "vfn": ""
+            },
+            "ty": "0",
+            "id": 2740324382,
+            "pk": 2740324382,
+            "weight": 22976,
+            "pc": 0,
+            "cc": 0,
+            "ecc": 0,
+            "logprob": -22.976
+        },
+        {
+            "y": 2012,
+            "pt": "0",
+            "d": "2012-01-01",
+            "aa": [
+                {
+                    "auId": 2463917841,
+                    "dAuN": "Stefan J. Sedlmaier"
+                },
+                {
+                    "auId": 2490470818,
+                    "dAuN": "Daniel Weber"
+                },
+                {
+                    "auId": 101999262,
+                    "dAuN": "Wolfgang Schnick"
+                }
+            ],
+            "tac": 3,
+            "f": [
+                {
+                    "fId": 192562407,
+                    "fn": "materials science"
+                }
+            ],
+            "e": {
+                "dn": "Crystal structur eo fb arium oxonitridophosphate, Ba3P6O6N8",
+                "vfn": ""
+            },
+            "ty": "0",
+            "id": 2182011050,
+            "pk": 2182011050,
+            "weight": 22976,
+            "pc": 0,
+            "cc": 0,
+            "ecc": 0,
+            "logprob": -22.976
+        },
+        {
+            "y": 2008,
+            "pt": "0",
+            "d": "2008-04-28",
+            "aa": [
+                {
+                    "auId": 101999262,
+                    "dAuN": "Wolfgang Schnick",
+                    "afId": 54009628,
+                    "dAfN": "University of Bayreuth"
+                },
+                {
+                    "auId": 2281404446,
+                    "dAuN": "Hubert Huppertz",
+                    "afId": 54009628,
+                    "dAfN": "University of Bayreuth"
+                },
+                {
+                    "auId": 2569716885,
+                    "dAuN": "Thomas Schlieper",
+                    "afId": 54009628,
+                    "dAfN": "University of Bayreuth"
+                }
+            ],
+            "tac": 3,
+            "e": {
+                "dn": "Nitridosilicates \u2010 High Temperature Materials with Interesting Properties",
+                "s": [
+                    {
+                        "ty": 1,
+                        "u": "http://onlinelibrary.wiley.com/doi/10.1002/9783527619900.ch106/summary"
+                    }
+                ],
+                "vfn": "",
+                "fp": 691,
+                "lp": 703
+            },
+            "ty": "0",
+            "id": 1535820661,
+            "pk": 1535820661,
+            "weight": 23172,
+            "pc": 0,
+            "cc": 0,
+            "ecc": 0,
+            "logprob": -23.172
+        },
+        {
+            "y": 2008,
+            "pt": "0",
+            "d": "2008-04-28",
+            "aa": [
+                {
+                    "auId": 101999262,
+                    "dAuN": "Wolfgang Schnick"
+                },
+                {
+                    "auId": 2281404446,
+                    "dAuN": "Hubert Huppertz"
+                },
+                {
+                    "auId": 2888442280,
+                    "dAuN": "Thomas Schlieper"
+                }
+            ],
+            "tac": 3,
+            "e": {
+                "dn": "Chapter 106. Nitridosilicates - High Temperature Materials with Interesting Properties",
+                "s": [
+                    {
+                        "ty": 999,
+                        "u": "http://onlinelibrary.wiley.com/doi/10.1002/9783527620777.ch106b/references"
+                    }
+                ],
+                "vfn": "Organosilicon Chemistry III: From Molecules to Materials"
+            },
+            "ty": "0",
+            "id": 2804730293,
+            "pk": 2804730293,
+            "weight": 23385,
+            "pc": 0,
+            "cc": 0,
+            "ecc": 0,
+            "logprob": -23.385
+        }
+    ],
+    "totalPublicationCount": 20,
+    "resultOffset": 0
+}

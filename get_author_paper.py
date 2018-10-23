@@ -42,21 +42,18 @@ _PROXIES = {
 _HOST = 'https://academic.microsoft.com/api/search/GetEntityResults?correlationId=79cbcd7b-4903-41e0-9070-521a2af21680'
 _SESSION = requests.session()
 
-
-def _get_request(url, param=None):
-    resp = _SESSION.get(
-        url,
-        params=param,
-        headers=_HEADERS,
-        # proxies=_PROXIES,
-        # verify=False,
-        timeout=random.choice(range(30, 100))
-    )
-    resp.encoding = "utf-8"
-    if resp.status_code == 200:
-        return resp.text
-    else:
-        raise Exception('Error: {0} {1}'.format(resp.status_code, resp.reason))
+def get_author_list():
+    r = [2008399468,
+         2053812879,
+         2429163768,
+         2439041213,
+         2818373779,
+         2153952045,
+         1973428469,
+         101999262,
+         2108222672,
+         2778374076]
+    return r
 
 
 def _post_request(url, data):
@@ -76,14 +73,22 @@ def _post_request(url, data):
         raise Exception('Error: {0} {1}'.format(resp.status_code, resp.reason))
 
 
-def get_author_data(entity_id):
+def get_author_paper(entity_id, index=0):
+    offset = 8
+    data = {
+        'Query':  "And(Ty='0',Composite(AA.AuId=%d))" % entity_id,
+        'Filters': "Pt = '0'",
+        'Limit': offset,
+        'Offset': index * offset,
+        'OrderBy': '',
+        'SortAscending': 'false'
+    }
     tries = 0
     js = dict()
-    param = {'entityId': entity_id}
     while tries < _MAXRETRY:
         tries += 1
         try:
-            html = _get_request(_HOST, param)
+            html = _post_request(_HOST, data)
             js = json.loads(html.strip())
             break
         except Exception as e:
@@ -95,31 +100,35 @@ def get_author_data(entity_id):
     return js
 
 
-def get_author_paper(entity_id, index):
-    offset = 8
-    data = {
-        'Query':  "And(Ty='0',Composite(AA.AuId=%d))" % entity_id,
-        'Filters': "Pt = '0'",
-        'Limit': offset,
-        'Offset': index * offset,
-        'OrderBy': '',
-        'SortAscending': 'false'
-    }
-    r = _post_request(_HOST, data)
-    return r
+def get_paper_proc(author_id):
+    res_dict = dict(id=author_id)
+    res_list = list()
+    first_page = get_author_paper(author_id)
+    publication_res = first_page['publicationResults']
+    publications = publication_res['publications']
+    res_list.extend(publications)
+    publication_count = publication_res['totalPublicationCount']
+    res_dict['totalPublicationCount'] = publication_count
+    logger.info('%d has %d publications' % (author_id, publication_count))
+    for i in range(1, (publication_count//8)+1):
+        page = get_author_paper(author_id, i)
+        res_list.extend(page['publicationResults']['publications'])
+    res_dict['publications'] = res_list
+
+    path = os.path.join(os.getcwd(), 'paper')
+    if not os.path.exists(path):
+        os.makedirs(path)
+    file_name = os.path.join(path, '%d_paper.json' % author_id)
+    with open(file_name, 'w') as fw:
+        json.dump(res_dict, fw)
 
 
 if __name__ == '__main__':
-    g = get_author_paper(2116639004, 0)
-    publication_count = json.loads(g)['publicationResults']
-    print(publication_count)
-    print(len(publication_count['publications']))
-    t = json.dumps(publication_count['publications'][0], indent=4)
-    print(t)
-    # for c in range(1, publication_count//8)
-    # r = get_author_data(2116639004)
-    # for k in r.keys():
-    #     print(k)
-    # print(r)
-    # r = _get_request(url)
-    # print(r)
+    # 使用时改写get_author_list()函数
+    pool = Pool(8)
+    a_list = get_author_list()
+    for a_id in a_list:
+        pool.apply_async(get_paper_proc, (a_id,))
+    pool.close()
+    pool.join()
+
